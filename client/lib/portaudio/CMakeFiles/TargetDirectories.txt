@@ -1,4 +1,0 @@
-C:/Users/Gabriel/Documents/Babel/client/lib/portaudio/CMakeFiles/ALL_BUILD.dir
-C:/Users/Gabriel/Documents/Babel/client/lib/portaudio/CMakeFiles/portaudio_static.dir
-C:/Users/Gabriel/Documents/Babel/client/lib/portaudio/CMakeFiles/portaudio.dir
-C:/Users/Gabriel/Documents/Babel/client/lib/portaudio/CMakeFiles/ZERO_CHECK.dir
