@@ -1,0 +1,13 @@
+﻿Build started 11/9/2014 5:54:45 AM.
+     1>Project "C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Test\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+       CustomBuild:
+         Checking Build System
+         CMake is re-running because generate.stamp.list is missing.
+     1>CUSTOMBUILD : CMake error : The source "C:/Users/Gabriel/Downloads/opus-1.1/CMakeLists.txt" does not match the source "C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+     1>Done Building Project "C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\ZERO_CHECK.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

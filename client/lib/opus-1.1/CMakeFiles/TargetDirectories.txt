@@ -1,0 +1,3 @@
+C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeFiles/Opus.dir
+C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeFiles/ALL_BUILD.dir
+C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeFiles/ZERO_CHECK.dir

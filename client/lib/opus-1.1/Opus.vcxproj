@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{3941906C-2FDF-4934-ABF0-FF0461730703}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Opus</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Opus.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Opus</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Opus.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Opus</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Opus.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Opus</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Opus.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Opus</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;OPUS_BUILD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;OPUS_BUILD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\include;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\arm;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\x86;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 -BC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 --check-stamp-file C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCCompiler.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeRCCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 -BC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 --check-stamp-file C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCCompiler.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeRCCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 -BC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 --check-stamp-file C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCCompiler.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeRCCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\bin\cmake.exe -HC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 -BC:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1 --check-stamp-file C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCCompiler.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\3.1.0-rc1\CMakeRCCompiler.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Gabriel\Downloads\cmake-3.1.0-rc1-win32-x86\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\bands.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\celt.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\celt_decoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\celt_encoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\celt_lpc.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\cwrs.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\entcode.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\entdec.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\entenc.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\kiss_fft.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\laplace.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\mathops.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\mdct.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\modes.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\pitch.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\quant_bands.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\rate.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\celt\vq.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\A2NLSF.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\ana_filt_bank_1.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\biquad_alt.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\bwexpander.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\bwexpander_32.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\check_control_input.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\CNG.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\code_signs.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\control_audio_bandwidth.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\control_codec.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\control_SNR.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\debug.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\dec_API.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_core.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_frame.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_indices.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_parameters.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_pitch.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decode_pulses.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\decoder_set_fs.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\enc_API.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\encode_indices.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\encode_pulses.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\gain_quant.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\HP_variable_cutoff.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\init_decoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\init_encoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\inner_prod_aligned.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\interpolate.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\lin2log.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\log2lin.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\LP_variable_cutoff.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\LPC_analysis_filter.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\LPC_inv_pred_gain.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_decode.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_del_dec_quant.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_encode.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_stabilize.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_unpack.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_VQ.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF_VQ_weights_laroia.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NLSF2A.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NSQ.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\NSQ_del_dec.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\pitch_est_tables.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\PLC.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\process_NLSFs.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\quant_LTP_gains.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_down2.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_down2_3.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_private_AR2.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_private_down_FIR.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_private_IIR_FIR.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_private_up2_HQ.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\resampler_rom.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\shell_coder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\sigm_Q15.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\sort.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_decode_pred.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_encode_pred.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_find_predictor.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_LR_to_MS.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_MS_to_LR.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\stereo_quant_pred.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\sum_sqr_shift.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\table_LSF_cos.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_gain.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_LTP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_NLSF_CB_NB_MB.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_NLSF_CB_WB.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_other.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_pitch_lag.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\tables_pulses_per_block.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\VAD.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\VQ_WMat_EC.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\apply_sine_window_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\autocorr_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\burg_modified_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\corrMatrix_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\encode_frame_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\find_LPC_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\find_LTP_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\find_pitch_lags_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\find_pred_coefs_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\k2a_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\k2a_Q16_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\LTP_analysis_filter_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\LTP_scale_ctrl_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\noise_shape_analysis_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\pitch_analysis_core_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\prefilter_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\process_gains_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\regularize_correlations_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\residual_energy_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\residual_energy16_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\schur_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\schur64_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\solve_LS_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\vector_ops_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\fixed\warped_autocorrelation_FIX.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\apply_sine_window_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\autocorrelation_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\burg_modified_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\bwexpander_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\corrMatrix_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\encode_frame_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\energy_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\find_LPC_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\find_LTP_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\find_pitch_lags_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\find_pred_coefs_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\inner_product_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\k2a_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\levinsondurbin_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\LPC_analysis_filter_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\LPC_inv_pred_gain_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\LTP_analysis_filter_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\LTP_scale_ctrl_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\noise_shape_analysis_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\pitch_analysis_core_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\prefilter_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\process_gains_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\regularize_correlations_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\residual_energy_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\scale_copy_vector_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\scale_vector_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\schur_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\solve_LS_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\sort_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\warped_autocorrelation_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\silk\float\wrappers_FLP.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\analysis.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\mlp.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\mlp_data.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus_decoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus_encoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus_multistream.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus_multistream_decoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\opus_multistream_encoder.c"  />
+    <ClCompile Include="C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\src\repacketizer.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Gabriel/Documents/Babel/client/lib/opus-1.1/ZERO_CHECK.vcxproj">
+      <Project>C047CAD6-30E5-4035-AC05-B173D1AD635C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

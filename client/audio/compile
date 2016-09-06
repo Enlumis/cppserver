@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -lrt -lpthread -lasound -std=c++0x *.cpp -lportaudio -lopus -g -ggdb

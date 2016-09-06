@@ -1,0 +1,8 @@
+﻿Build started 11/9/2014 5:21:19 AM.
+     1>Project "C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\ALL_BUILD.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Toto\) contains files shared from another project (ZERO_CHECK.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Done Building Project "C:\Users\Gabriel\Documents\Babel\client\lib\opus-1.1\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
